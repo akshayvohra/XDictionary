@@ -28,7 +28,7 @@ export default function XDictionary() {
 
     return (
         <div className="container">
-            <h1>XDictionary</h1>
+            <h1>Dictionary App</h1>
             <div className="search-box">
                 <input
                     type="text"
@@ -38,12 +38,12 @@ export default function XDictionary() {
                 />
                 <button onClick={handleSearch}>Search</button>
             </div>
-            {definition && (
+            
                 <div className="result">
                     <h3>Definition:</h3>
                     <p>{definition}</p>
                 </div>
-            )}
+            
         </div>
     );
 }
